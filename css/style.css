@@ -132,9 +132,7 @@ h2 {
   width: 264px;
   height: 260px;
 } */
-.team-list {
-  background-color: #ffffff;
-}
+
 /* #endregion Section 2 */
 
 /* #region Section 3 */
@@ -143,11 +141,11 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
-.portfolio {
+.portfolio .team {
   background-color: #f4f4fd;
 }
-.portfolio-list {
-  border-color: #ffffff;
+.portfolio-list .team-list {
+  background-color: #ffffff;
 }
 .paragraph-portfolio {
   font-size: 14px;
