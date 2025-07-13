@@ -141,11 +141,11 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
-.portfolio .team {
+.team {
   background-color: #f4f4fd;
 }
-.portfolio-list .team-list {
-  background-color: #ffffff;
+.team-list {
+  background-color: #fff;
 }
 .paragraph-portfolio {
   font-size: 16px;
