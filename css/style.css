@@ -1,7 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -26,7 +23,7 @@ h3 {
   color: #2e2f42;
 }
 .btn-hero {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   color: currentColor;
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -129,8 +126,8 @@ h2 {
 /* #endregion Section 1 */
 
 /* #region Section 2 */
-.team {
-  background-color: #f4f4fd;
+.team-card {
+  background-color: #ffffff;
 }
 .ttl-team {
   text-align: center;
