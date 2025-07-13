@@ -3,9 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-main {
-  margin: 0 auto;
-}
+
 ul,
 ol {
   list-style: none;
@@ -145,8 +143,13 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
-
-.paragraph--portfolio {
+.portfolio {
+  background-color: #f4f4fd;
+}
+.portfolio-list {
+  border-color: #ffffff;
+}
+.paragraph-portfolio {
   font-size: 14px;
   color: #8e8f99;
   line-height: 1.5;
