@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -31,8 +31,8 @@ h3 {
   cursor: pointer;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
-  width: 169px;
-  height: 56px;
+  /* width: 169px;
+  height: 56px; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
@@ -41,7 +41,7 @@ h3 {
 }
 button:hover,
 button:focus {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); */
   background-color: #404bbf;
 }
 
@@ -97,7 +97,7 @@ button:focus {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  /* text-align: center; */
+  text-align: center;
   color: #fff;
 }
 /*endregion hero*/
@@ -132,13 +132,15 @@ h2 {
 .team {
   background-color: #f4f4fd;
 }
-
-.team-list-item img {
+.ttl-team {
+  text-align: center;
+}
+/* .team-list-item img {
   width: 264px;
   height: 260px;
-}
+} */
 .team-list {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 /* #endregion Section 2 */
 
@@ -146,11 +148,14 @@ h2 {
 
 .ttl-portfolio {
   text-transform: capitalize;
+  text-align: center;
 }
 
 .paragraph--portfolio {
   font-size: 14px;
   color: #8e8f99;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* #endregion Section 3 */
